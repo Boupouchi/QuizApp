@@ -18,13 +18,14 @@
         android:textStyle="bold"
         />
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/q2"/>
+        android:id="@+id/picture2"
+        android:layout_width="600dp"
+        android:layout_height="350dp"
+        android:scaleType="fitCenter" />
     <TextView
+        android:id="@+id/question2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Le panneau de danger indique une succession de virages dont le 1er est :"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
         android:textStyle="bold"/>

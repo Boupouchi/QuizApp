@@ -18,13 +18,14 @@
         android:textStyle="bold"
         />
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/q3"/>
+        android:id="@+id/picture3"
+        android:layout_width="600dp"
+        android:layout_height="350dp"
+        android:scaleType="fitCenter" />
     <TextView
+        android:id="@+id/question3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Avant de partir, je laisse tourner mon moteur pour qu'il monte en température :"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
         android:textStyle="bold"/>

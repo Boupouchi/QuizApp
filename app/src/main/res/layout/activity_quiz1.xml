@@ -10,6 +10,7 @@
     android:layout_marginRight="20dp"
     android:gravity="center">
     <TextView
+        android:id="@+id/quizNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Quiz 1"
@@ -18,16 +19,18 @@
         />
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/q1"/>
+        android:id="@+id/picture1"
+        android:layout_width="600dp"
+        android:layout_height="350dp"
+        android:scaleType="fitCenter" />
     <TextView
+        android:id="@+id/question1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A cette intersection, je laisse la priorité à droite :"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        tools:ignore="InvalidId" />
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -38,15 +41,13 @@
             android:id="@+id/rb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Oui" />
+            android:layout_weight="1" />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Non" />
+            android:layout_weight="1"/>
     </RadioGroup>
     <Button
         android:id="@+id/bNext"

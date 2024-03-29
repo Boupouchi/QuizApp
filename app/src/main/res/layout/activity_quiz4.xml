@@ -18,13 +18,14 @@
         android:textStyle="bold"
         />
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/q4"/>
+        android:id="@+id/picture4"
+        android:layout_width="600dp"
+        android:layout_height="350dp"
+        android:scaleType="fitCenter" />
     <TextView
+        android:id="@+id/question4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="En tant qu'automobiliste, vous devez être plus vigilant lorsque :"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
         android:textStyle="bold"/>
@@ -38,15 +39,13 @@
             android:id="@+id/rb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Le tramway est arrêté" />
+            android:layout_weight="1" />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Le tramway circule" />
+            android:layout_weight="1" />
 
 
     </RadioGroup>
